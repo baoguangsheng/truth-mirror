@@ -1,3 +1,7 @@
+torch
+numpy
+transformers==4.28.1
+tqdm
 arxiv
 openai==1.17.0
 scikit-learn
