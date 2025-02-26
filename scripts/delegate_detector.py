@@ -189,7 +189,7 @@ class DelegateDetector:
             pairs_pos = pairs_pos[:self.args.ndev // 2]
             pairs_neg = pairs_neg[:self.args.ndev // 2]
             pairs = pairs_pos + pairs_neg
-        print(f'Fit model on {len(pairs)} samples for {self.name}.')
+        print(f'Fit {self.args.model} on {len(pairs)} samples for {self.name}.')
         # fit a model
         features = [cs for cs, _ in pairs]
         labels = [l for _, l in pairs]
@@ -285,7 +285,7 @@ class DelegateDetector:
         config, model = load_detector(self.args.result_path, category, self.name)
         fit_data = config['fit_data']
         groups = set([None] + [group_fn(item) for item in results])
-        print(f'Eval groups: {groups}')
+        # print(f'Eval groups: {groups}')
         report = {}
         for group in groups:
             group_results = [item for item in results if group is None or group_fn(item) == group]

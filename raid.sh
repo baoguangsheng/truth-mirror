@@ -12,4 +12,4 @@ datasets='raid.dev,raid.test,nonnative.test'
 detectors='roberta,radar,log_perplexity,log_rank,lrr,glimpse,fast_detect,C(fast_detect),CT(fast_detect),binoculars,C(binoculars),CT(binoculars)'
 
 python scripts/delegate_detector.py --data_path $data_path --result_path $result_path \
-              --datasets $datasets --detectors $detectors --categorize level
+              --datasets $datasets --detectors $detectors

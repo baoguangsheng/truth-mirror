@@ -13,4 +13,4 @@ datasets='news.dev,news.test,news-zh.dev,news-zh.test,news-fr.dev,news-fr.test,n
 detectors='roberta,radar,log_perplexity,log_rank,lrr,fast_detect,C(fast_detect),CT(fast_detect),binoculars,C(binoculars),CT(binoculars),glimpse,C(glimpse),CT(glimpse)'
 
 python scripts/delegate_detector.py --data_path $data_path --result_path $result_path \
-              --datasets $datasets --detectors $detectors --categorize level
+              --datasets $datasets --detectors $detectors
