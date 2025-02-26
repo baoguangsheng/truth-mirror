@@ -1,0 +1,7 @@
+{
+    "reference_model_name": "falcon-7b",
+    "scoring_model_name": "falcon-7b-instruct",
+    "max_token_observed": 512,
+    "device": "cuda",
+    "cache_dir": "./cache"
+}

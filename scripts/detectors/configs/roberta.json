@@ -1,0 +1,6 @@
+{
+    "scoring_model_name": "Hello-SimpleAI/chatgpt-detector-roberta",
+    "max_token_observed": 512,
+    "device": "cuda",
+    "cache_dir": "./cache"
+}

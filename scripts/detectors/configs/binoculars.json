@@ -1,0 +1,7 @@
+{
+    "observer_name": "falcon-7b",
+    "performer_name": "falcon-7b-instruct",
+    "max_token_observed": 512,
+    "device": "cuda",
+    "cache_dir": "./cache"
+}

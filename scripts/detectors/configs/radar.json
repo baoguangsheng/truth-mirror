@@ -1,0 +1,6 @@
+{
+    "scoring_model_name": "TrustSafeAI/RADAR-Vicuna-7B",
+    "max_token_observed": 512,
+    "device": "cuda",
+    "cache_dir": "./cache"
+}

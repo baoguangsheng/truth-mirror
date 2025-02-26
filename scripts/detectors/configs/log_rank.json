@@ -1,0 +1,7 @@
+{
+    "baseline": "logrank",
+    "scoring_model_name": "falcon-7b",
+    "max_token_observed": 512,
+    "device": "cuda",
+    "cache_dir": "./cache"
+}

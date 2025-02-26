@@ -1,0 +1,12 @@
+{
+    "api_base": "${API_BASE}",
+    "api_key": "${API_KEY}",
+    "api_version": "2024-08-01-preview",
+    "scoring_model_name": "gpt-35-turbo-0301",
+    "max_token_observed": 512,
+    "estimator": "geometric",
+    "prompt": "prompt3",
+    "rank_size": 1000,
+    "top_k": 5,
+    "cache_dir": "./cache"
+}
