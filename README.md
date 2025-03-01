@@ -7,11 +7,9 @@
 We are working on the demo and will update the link soon.
 
 ## Brief Intro
-<div align=center>
-<img src="doc/intro.png"  width = "90%" alt="2D detection" align=center/>
-</div>
+<img src="doc/intro.png"  width = "100%" alt="2D detection" align=center/>
 We detect three levels of AI risk by decoupling a text into content and expression dimensions. The detector performs a binary classification within the two-dimensional space for each detection task.
-Our findings show that content is resistant to surface-level changes, which can serve as a key feature for detection.
+Our findings show that **content is resistant to surface-level changes**, which can serve as a key feature for detection.
 
 ## Environment
 * Python3.12
