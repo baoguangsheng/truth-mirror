@@ -75,7 +75,8 @@ class DelegateModel:
         if self.model_name == 'LogisticRegression':
             proba = self.model.predict_proba(xs)
             return [v[1] for v in proba]
-        return self.model.predict(xs)
+        ys = self.model.predict(xs)
+        return ys
 
 class DelegateDetector:
     def __init__(self, args, name):

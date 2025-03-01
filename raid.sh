@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 data_path=./benchmark/raid
-result_path=./exp_main/raid
+result_path=./exp_raid
 mkdir -p $result_path
 
 datasets='raid.dev,raid.test,nonnative.test'
