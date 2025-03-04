@@ -1,7 +1,7 @@
 # Truth Mirror (2D Detection)
 **This code is for our paper "Decoupling Content and Expression: Two-Dimensional Detection of AI-Generated Text"**.
 
-[Paper](https://arxiv.org/abs/xxx.xxx)
+[Paper](https://arxiv.org/abs/2503.00258)
 | [Demo](http://region-9.autodl.pro:21504/xxx)
 
 We are working on the demo and will update the link soon.
